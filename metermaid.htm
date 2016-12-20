@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Meter Maid</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="MeterMaid.js"></script>
+</head>
+
+<body>
+  <br>
+  <h1>Meter Maid - Get a handle on your utilities</h1>
+  <br>
+  <h1>Rogers Internet - remaining, per day (click to switch)</h1>
+  <br>
+  <form style="width: 25em">
+    <img id="RogersImage" src="http://localhost:8080/MeterMaid/RogersUsage.png">
+  </form>
+  <br>
+  <h1>Hydro - Graphs for Usage per hour, per day, per month (click to switch)</h1>
+  <br>
+  <form style="width: 25em">
+      <br>Usage as of yesterday was <span id="HydroData"></span>
+      <img  id="HydroImage" src="http://localhost:8080/MeterMaid/HydroHourlyUsage.png">
+  </form>
+  <br>
+  <h1>Virgin Mobile - total, data, calls, texts (click to switch)</h1>
+  <br>
+  <form style="width: 40em">
+    <img id="VirginImage" src="http://localhost:8080/MeterMaid/VirginUsage.png">
+  </form>
+  <br>
+  <h1>Telus mobile - summary, usage (click to switch)</h1>
+  <br>
+  <form style="width: 25em">
+    <img id="TelusImage" src="http://localhost:8080/MeterMaid/Telus.png">
+  </form>
+  <br>
+  <h1>Gas - Last 12 months</h1>
+  <br>
+  <form style="width: 27em">
+    <img src="http://localhost:8080/MeterMaid/EnbridgeYear.png">
+  </form>
+  <div style="display:none;">
+    <img id="RogersImage1" src="http://localhost:8080/MeterMaid/RogersUsage.png">
+    <img id="RogersImage2" src="http://localhost:8080/MeterMaid/RogersDailyUsage.png">
+    <img id="VirginImage1" src="http://localhost:8080/MeterMaid/VirginUsage.png">
+    <img id="VirginImage2" src="http://localhost:8080/MeterMaid/VirginDataUsage.png">
+    <img id="VirginImage3" src="http://localhost:8080/MeterMaid/VirginPhoneUsage.png">
+    <img id="VirginImage4" src="http://localhost:8080/MeterMaid/VirginTextsUsage.png">
+    <img id="TelusImage1" src="http://localhost:8080/MeterMaid/Telus.png">
+    <img id="TelusImage2" src="http://localhost:8080/MeterMaid/TelusUsage.png">
+    <img id="HydroImage1" src="http://localhost:8080/MeterMaid/HydroHourlyUsage.png">
+    <img id="HydroImage2" src="http://localhost:8080/MeterMaid/HydroDailyUsage.png">
+    <img id="HydroImage3" src="http://localhost:8080/MeterMaid/HydroMonthlyUsage.png">
+  </div>
+
+</body>
+</html>
